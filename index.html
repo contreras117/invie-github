@@ -16,12 +16,29 @@
             max-width: 100%;
             vertical-align: top;
         }
+        img#responsive
+        {
+            display: none;
+        }
+
+        @media screen and (max-width: 768px)
+        {
+            img#responsive
+            {
+                display: block;
+            }
+            img.normal
+            {
+                display:none;
+            }
+        }
     </style>
 </head>
 <body>
-    <img src="images/header.jpg" alt="">
-    <img src="images/hero.jpg" alt="">
-    <img src="images/acustica.jpg" alt="">
-    <img src="images/clasica.jpg" alt="">
+    <img src="images/invie-responsive.png" alt="" id="responsive">
+    <img src="images/header.jpg" alt="" class="normal">
+    <img src="images/hero.jpg" alt="" class="normal">
+    <img src="images/acustica.jpg" alt="" class="normal">
+    <img src="images/clasica.jpg" alt="" class="normal">
 </body>
 </html>
