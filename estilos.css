@@ -1,0 +1,14 @@
+body
+{
+    background-color: beige;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+div
+{
+    width: 50%;
+    height: 200px;
+    background-color: chartreuse;
+    border: 1px solid red;
+}
