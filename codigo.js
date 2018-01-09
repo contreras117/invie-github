@@ -4,3 +4,5 @@ console.log(num);
 
 var boton = document.getElementById("Boton");
 boton.addEventListener("click",FuncionTest);
+var x = document.getElementById("Cuadro");
+x.addEventListener("keypress",funcion);
